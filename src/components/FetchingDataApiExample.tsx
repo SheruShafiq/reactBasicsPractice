@@ -11,7 +11,6 @@ interface CatFact {
 function FetctchData(apiLink: any) {
   // Declare a new state variable, which we'll call "count"
   const [count, setCount] = useState("Press the button to fetch data");
-  console.log(apiLink);
   // Function to fetch data from the API
   const fetchData = async () => {
     try {
